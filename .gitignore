@@ -1,0 +1,88 @@
+# =========================
+# MERN Stack .gitignore
+# =========================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build folders
+dist/
+build/
+coverage/
+
+# React frontend
+frontend/build/
+frontend/.cache/
+
+# Next.js (si usas)
+.next/
+
+# Vite
+vite.svg
+
+# Parcel
+.cache/
+.parcel-cache/
+
+# MongoDB
+data/
+*.mongodb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cache
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional lockfiles
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Docker
+.dockerignore
+
+# Serverless
+.serverless/
+
+# Misc
+*.local
